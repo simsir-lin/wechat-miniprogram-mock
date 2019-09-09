@@ -1,3 +1,3 @@
 <view class="container">
-
+  <button bindtap="send">发送请求获取模拟数据</button>
 </view>
