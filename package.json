@@ -1,8 +1,9 @@
 {
   "name": "wechat-miniprogram-mock",
-  "version": "0.0.1",
-  "description": "微信小程序数据模拟",
-  "main": "dist/index.js",
+  "version": "0.0.2",
+  "description": "微信小程序数据模拟库",
+  "main": "index.js",
+  "miniprogram": "dist",
   "scripts": {
     "build": "gulp build"
   },
