@@ -1,0 +1,29 @@
+{
+  "name": "wechat-miniprogram-mock",
+  "version": "0.0.1",
+  "description": "微信小程序数据模拟",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simsir-lin/wechat-miniprogram-mock.git"
+  },
+  "author": "simsir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simsir-lin/wechat-miniprogram-mock/issues"
+  },
+  "homepage": "https://github.com/simsir-lin/wechat-miniprogram-mock#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.3",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-uglify-es": "^1.0.4"
+  }
+}
