@@ -41,7 +41,7 @@ Mock.prototype = {
             let method = ob.method || 'get'
             let key = method.toUpperCase() + ' ' + path
             if (self.mockData[key]) {
-              if (self.options.delay > 0) {
+              if (self.options.delay <= 0) {
                 ob.success(self.mockData[key])
               } else {
                 setTimeout(function() {
